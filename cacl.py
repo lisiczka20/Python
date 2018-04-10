@@ -9,3 +9,4 @@ print("suma:",a+b)
 print("różnica:",a-b)
 print("iloczyn:",a*b)
 print("iloraz:",a/b)
+#commenrrrererer
