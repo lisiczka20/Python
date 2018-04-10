@@ -1,11 +1,23 @@
-# Kalkulator na instrukcjacj warunkowych
+# Kalkulator na funkcjach
 
-a = 3
-b = 4
-print("a:",a)
-print("b:",b) 
+def suma(a,b):
+	wynik = a+b
+	print("suma:",wynik)
 
-print("suma:",a+b)
-print("różnica:",a-b)
-print("iloczyn:",a*b)
-print("iloraz:",a/b)
+def roznica(a,b):
+	wynik = a-b
+	print("roznica:",wynik)
+
+def iloczyn(a,b):
+	wynik = a*b
+	print("iloczyn:",wynik)
+
+def iloraz(a,b):
+	if b!=0:
+		wynik = a/b
+		print("iloraz:",wynik)
+	else:
+		print("error")
+
+
+iloraz(3,0)
